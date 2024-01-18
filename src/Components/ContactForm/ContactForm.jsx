@@ -28,13 +28,13 @@ export const ContactForm = ({ handleSubmit }) => {
     >
       <ContainerForm>
         <div>
-          <Label htmlFor={nameFieldId}>Username</Label>
+          <Label htmlFor={nameFieldId}>Name</Label>
           <Field type="text" name="name" id={nameFieldId} />
           <ErrorMessage name="name" as="span" />
         </div>
 
         <div>
-          <Label htmlFor={numberFieldId}>Email</Label>
+          <Label htmlFor={numberFieldId}>Phone</Label>
           <Field type="text" name="number" id={numberFieldId} />
           <ErrorMessage name="number" as="span" />
         </div>
